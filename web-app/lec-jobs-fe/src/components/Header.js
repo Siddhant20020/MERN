@@ -165,8 +165,8 @@ class Header extends Component {
             </div>
             <div className="user-account">
               <div className="user-info">
-                <img src="./images/user.jpeg" alt="" />
-                <a href="./index.html#" title="">Saroj</a>
+                <img src={"./images/" +this.props.user.username +"jpeg"} alt="" />
+                <a href="./index.html#" title="">{this.props.user.username}</a>
                 <i className="la la-sort-down"></i>
               </div>
               <div className="user-account-settingss" id="users">
