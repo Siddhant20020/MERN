@@ -7,7 +7,7 @@ import TagsSection from "./TagsSection";
 const userData = {
   email: "test@test.com",
   username: "Siddhant",
-  fullname:"Test User",
+  fullname:"Siddhant Rai",
   title: "Software Developer",
   skills: ["35", "PHP", "JAVA"],
   address: "Kathmandu, Nepal",
