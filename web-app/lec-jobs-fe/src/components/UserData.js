@@ -1,17 +1,5 @@
 import { Component } from "react";
-const userData = {
-  email: "test@test.com",
-  username: "Siddhant",
-  fullname:"Test User",
-  title: "Software Developer",
-  skills: ["35", "PHP", "JAVA"],
-  address: "Kathmandu, Nepal",
-  job_type: "Full Time",
-  id: 1,
-  is_active: true,
-  followers: ["username123","user234","user543"],
-  following: ["username123","user234","user543"],
-};
+
 
 class UserData extends Component {
   render() {
