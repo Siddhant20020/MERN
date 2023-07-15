@@ -313,7 +313,7 @@ class Home extends Component {
                     </ul>
                   </div>
                 </div>
-              </form>
+                </form>
             </div>
             <a href="./index.html#" title="">
               <i className="la la-times-circle-o"></i>
