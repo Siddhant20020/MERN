@@ -22,12 +22,12 @@ class UserData extends Component {
             <div className="user-profile">
               <div className="username-dt">
                 <div className="usr-pic">
-                  <img src={"./images/" + "userData.username +".jpg} alt="" />
+                  <img src={"./images/" + userData.username +".jpg"} alt="" />
                 </div>
               </div>
               <div className="user-specs">
                 <h3>{userData.fullname}</h3>
-                <span>{userData.title}</span>
+                <span>{userData.title}</span> 
               </div>
             </div>
             <ul className="user-fw-status">
